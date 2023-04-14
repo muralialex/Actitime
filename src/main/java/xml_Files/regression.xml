@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="ActiTime">
+	<listeners>
+		<listener class-name="listeners_reports.Listener_Reporting"></listener>
+	</listeners>
+
 	<test name="TimeTrack">
 		<classes>
 			<class name="usersTests.Users_Verification"></class>

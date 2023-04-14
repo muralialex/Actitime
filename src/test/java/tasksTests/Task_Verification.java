@@ -3,10 +3,12 @@ package tasksTests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import commonTests.BaseTest;
 
+//@Listeners(listeners_reports.Listener_Reporting.class)
 public class Task_Verification extends BaseTest{
 	WebDriver driver= null;
 	

@@ -4,11 +4,13 @@ import java.util.List;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import commonTests.BaseTest;
 import usersPages.Users_commonPage;
 
+//@Listeners(listeners_reports.Listener_Reporting.class)
 public class Users_Verification extends BaseTest{
 	
 	Users_commonPage users_commonPage= null;
